@@ -15,16 +15,19 @@ body{
 }
 
 nav{
-    background-color: rgba(7, 67, 101, 0.55);
+    background-color: var(--lp-nav-bar-bg);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem 3rem;
+    color: var(--green);
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif
     
 }
 
 h1{
-    margin: 0;
+    margin: 0
 }
 
 .hero {
@@ -32,4 +35,13 @@ h1{
     background-size: cover;
     width: 100vw;
     height: 100vh;
+}
+
+nav .title{
+    font-size: 2rem;
+}
+
+.nav-info{
+    font-size: 1.6rem;
+    margin-top: 1rem
 }
