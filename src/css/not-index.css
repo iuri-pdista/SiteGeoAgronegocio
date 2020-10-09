@@ -1,0 +1,21 @@
+#root{
+    font-size: 62.5%;
+    --green: #43DE0D;
+    --darker-green: #35b806;
+    --lp-nav-bar-bg: rgba(7, 67, 101, 0.55);
+    --dark-blue: rgba(7, 67, 101, 0.78);
+    --dark-orange: #DF5B38;
+    --light-orange: #E0A12D;
+    --south: #803789;
+    --southeast: #E5114B;
+    --northeast: #0B72B5;
+    --center-west: #F8B333;
+    --north: #42A62A;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
