@@ -1,4 +1,4 @@
-#root{
+:root{
     font-size: 62.5%;
     --green: #43DE0D;
     --darker-green: #35b806;
@@ -15,7 +15,21 @@ body{
 }
 
 nav{
-    background-color: var(--lp-nav-bar-bg);
+    background-color: rgba(7, 67, 101, 0.55);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 2rem 3rem;
+    
+}
+
+h1{
+    margin: 0;
+}
+
+.hero {
+    background-image: url("../../assets/jed-owen-ajZibDGpPew-unsplash.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
