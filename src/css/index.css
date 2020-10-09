@@ -3,7 +3,7 @@
     --green: #43DE0D;
     --darker-green: #35b806;
     --lp-nav-bar-bg: rgba(7, 67, 101, 0.55);
-    --dark-blue: rgba(7, 67, 101, 0.78);
+    --dark-blue: rgba(7, 67, 101, 0.65);
     --dark-orange: #DF5B38;
 }
 
@@ -12,6 +12,16 @@ body{
     padding: 0;
     box-sizing: border-box;
     display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    font-style: italic;
+    color: var(--darker-green)
 }
 
 nav{
@@ -30,6 +40,19 @@ h1{
     margin: 0
 }
 
+button{
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--green)
+}
+
+button:hover{
+    font-style: oblique;
+    color: var(--darker-green)
+}
+
 .hero {
     background-image: url("../../assets/jed-owen-ajZibDGpPew-unsplash.jpg");
     background-size: cover;
@@ -41,7 +64,29 @@ nav .title{
     font-size: 2rem;
 }
 
-.nav-info{
+nav a{
     font-size: 1.6rem;
     margin-top: 1rem
+}
+
+.hero-text{
+    font-size: 2.4rem;
+    font-family: 'Roboto';
+    margin-left: 13rem;
+    margin-top: 28rem;
+    font-weight: bold;
+}
+
+.hero-text h2{
+    color: var(--dark-orange);
+    font-size: 3rem!important
+}
+
+.hero-text button{
+    padding: 1.3rem 8.7rem;
+    margin-left: 1rem;
+}
+
+.hero-text .secondary-text{
+    display: none;
 }
