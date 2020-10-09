@@ -75,6 +75,8 @@ nav a{
     margin-left: 13rem;
     margin-top: 28rem;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
 }
 
 .hero-text h2{
@@ -87,6 +89,20 @@ nav a{
     margin-left: 1rem;
 }
 
-.hero-text .secondary-text{
+.hero-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text .hero-item+.hero-item{
     display: none;
+}
+
+.divCarroussel{
+    background: none;
+}
+
+.divCarroussel2{
+    margin-left: -10rem;
+    background: none;
 }
