@@ -11,5 +11,10 @@
     --northeast: #0B72B5;
     --center-west: #F8B333;
     --norht: #42A62A;
+}
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
