@@ -1,9 +1,8 @@
-#root{
+:root{
     font-size: 62.5%;
     --green: #43DE0D;
     --darker-green: #35b806;
-    --lp-nav-bar-bg: rgba(7, 67, 101, 0.55);
-    --dark-blue: rgba(7, 67, 101, 0.78);
+    --blue: rgba(7, 67, 101, 0.78);
     --dark-orange: #DF5B38;
     --light-orange: #E0A12D;
     --south: #803789;
@@ -16,6 +15,96 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 94.5vw;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    color: var(--green);
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif   
+}
+
+button{
+    background-color: var(--blue);
+    margin-top: .8rem;
+    padding: 1.3rem 8.7rem;
+    margin-left: 4rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: var(--green)
+}
+
+button:hover{
+    font-style: oblique;
+    color: var(--darker-green)
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    font-style: oblique;
+    color: var(--darker-green)
+}
+
+.nav-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .title{
+    font-size: 2rem;
+}
+
+nav a{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+    margin-top: 3rem
+}
+
+.header{
+    color: var(--light-orange);
+    font-size: 3.6rem;
+    font-family: 'Roboto';
+    margin-left: 60rem;
+}
+
+.concept{
+    padding: 2rem 5rem;
+}
+
+.concept-title{
+    font-size: 3rem;
+    color: var(--light-orange);
+    font-weight: bold;
+}
+
+.concept-text{
+    font-size: 2rem;
+}
+
+.concept-ltr{
+    padding: 2rem 0rem;
+    margin-left: 60rem;
+}
+
+.concept-title-ltr{
+    font-size: 3rem;
+    color: var(--light-orange);
+    font-weight: bold;
+}
+
+.concept-text-ltr{
+    font-size: 2rem;
 }
